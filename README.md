@@ -1,15 +1,5 @@
-# Cybersecurity Vulnerability Assessment Internship Report
+# Task o1 Web application security Testing, Vulnerability Assessment.
 
-**Prepared by:** Indala Lokesh Babu\
-**Internship Domain:** Cyber Security\
-**Task Title:** Web Application Security Testing\
-**Target Application:** [OWASP Juice
-Shop](https://demo.owasp-juice.shop)\
-**Date:** July 2025
-
-------------------------------------------------------------------------
-
-## Executive Summary
 
 This report presents the findings from a web application vulnerability
 assessment conducted on OWASP Juice Shop. The primary objective was to
@@ -25,9 +15,6 @@ enforcing strong authentication controls, and applying Content Security
 Policies---will significantly strengthen the security posture of the
 application.
 
-------------------------------------------------------------------------
-
-## 1. Introduction
 
 ### Purpose
 
@@ -109,11 +96,6 @@ responses to crafted payloads
                    Failures                                       
   ---------------------------------------------------------------------------
 
-> \*Note: The test indicated possible XSS risk; however, execution was
-> not confirmed due to frontend filtering.
-
-------------------------------------------------------------------------
-
 ## 5. Impact Analysis & Risk Rating
 
   ------------------------------------------------------------------------------
@@ -164,30 +146,13 @@ will significantly reduce exposure to exploitation and enhance the
 security of the application. The exercise provided practical experience
 in vulnerability assessment and remediation planning.
 
-------------------------------------------------------------------------
 
-## 8. Appendices
+## 9. Aknowledgments
 
-**A. Tools Used** - Web browser (manual testing) - OWASP Juice Shop demo
-instance
+-   Special thakns to ** Future Interns ** for this opportunity
 
-**B. Evidence** - Screenshots of login bypass (SQL Injection) -
-Screenshot of weak credentials login - Screenshot of XSS payload input
-form
 
-------------------------------------------------------------------------
-
-## 9. References
-
--   OWASP Top 10 Web Application Security Risks (2021):
-    https://owasp.org/Top10/\
--   OWASP Juice Shop Project: https://owasp.org/www-project-juice-shop/\
--   SQL Injection Prevention Cheat Sheet:
-    https://owasp.org/www-community/attacks/SQL_Injection\
--   XSS Prevention Cheat Sheet:
-    https://owasp.org/www-community/xss-prevention
-
-------------------------------------------------------------------------
-
-**Prepared by:** Indala Lokesh Babu\
-Cybersecurity Intern
+**Author:** Waggari Misganu Ebsa\
+** Meet me @ **
+Email : wagarimisganu12@gmail.com
+Linkedin: https://www.linkedin.com/in/waggari-misganu-ebsa-352601317/
