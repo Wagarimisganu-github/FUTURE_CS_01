@@ -34,10 +34,6 @@ the OWASP Top 10 and documenting them in a professional security report.
 
 ## 2. Environment Setup & Exploration
 
-**Environment:** - Application deployed at:
-https://demo.owasp-juice.shop - Accessed using a standard web browser -
-Manual testing approach focusing on core web functions
-
 **Exploration Activities:** - Login and authentication workflows - Input
 fields (login form, search, comment forms) - Error messages and
 responses to crafted payloads
@@ -78,65 +74,8 @@ responses to crafted payloads
 
 ------------------------------------------------------------------------
 
-## 4. Mapping to OWASP Top 10
 
-  ---------------------------------------------------------------------------
-  Vulnerability    OWASP Top 10 Category Description              Status
-  ---------------- --------------------- ------------------------ -----------
-  SQL Injection    A03:2021 -- Injection Login bypass via crafted Confirmed
-                                         SQL payload              
-
-  Cross-Site       A07:2021 --           Input accepted,          Potential /
-  Scripting        Identification &      potential for XSS        Observed
-                   Authn. Failures\*                              
-
-  Authentication   A07:2021 --           Weak credentials         Confirmed
-  Flaw             Identification &      accepted                 
-                   Authentication                                 
-                   Failures                                       
-  ---------------------------------------------------------------------------
-
-## 5. Impact Analysis & Risk Rating
-
-  ------------------------------------------------------------------------------
-  Vulnerability          Impact Level Likelihood   Overall Risk Description
-  ---------------------- ------------ ------------ ------------ ----------------
-  SQL Injection          Critical     High         High         Full
-                                                                authentication
-                                                                bypass possible
-
-  Cross-Site Scripting   Medium       Medium       Medium       Malicious script
-                                                                execution
-                                                                possible if
-                                                                filters bypassed
-
-  Authentication Flaw    High         High         High         Weak/default
-                                                                credentials
-                                                                enable
-                                                                unauthorized
-                                                                access
-  ------------------------------------------------------------------------------
-
-------------------------------------------------------------------------
-
-## 6. Remediation & Recommendations
-
-  ------------------------------------------------------------------------------
-  Vulnerability    Recommended Fixes                                  Priority
-  ---------------- -------------------------------------------------- ----------
-  SQL Injection    Implement prepared statements; strict input        High
-                   validation                                         
-
-  Cross-Site       Sanitize inputs, encode outputs, implement CSP     Medium
-  Scripting                                                           
-
-  Authentication   Strong password policies, MFA, account lockout     High
-  Flaw             after failed attempts                              
-  ------------------------------------------------------------------------------
-
-------------------------------------------------------------------------
-
-## 7. Conclusion
+## 4. Conclusion
 
 The assessment of OWASP Juice Shop revealed several vulnerabilities that
 align with OWASP Top 10 risks. The confirmed flaws (SQL Injection and
@@ -147,7 +86,7 @@ security of the application. The exercise provided practical experience
 in vulnerability assessment and remediation planning.
 
 
-## 9. Aknowledgments
+## 5. Aknowledgments
 
 -   Special thakns to ** Future Interns ** for this opportunity
 
